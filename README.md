@@ -14,21 +14,13 @@ npx install-peerdeps --dev eslint-config-airbnb
 npx eslint --init
 ```
 
-# 2 - Apagar arquivo existente e criar novo arquivo .eslintrc
+# 2 - Integrar com Prettier
 
 ```
-{
-  "extends": ["airbnb"]
-}
+npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier -D
 ```
 
-# 3 - Integrar com Prettier
-
-```
-npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
-```
-
-# 4 - .eslintrc
+# 3 - .eslintrc
 
 ```
 {
@@ -56,7 +48,7 @@ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 }
 ```
 
-# 5 - .prettierrc
+# 4 - .prettierrc
 
 ```
 {
@@ -79,7 +71,7 @@ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 
 ```
 
-# 6 - Pasta .vscode (extesions.json, settings.json )
+# 5 - Pasta .vscode (extesions.json, settings.json )
 
 ## extesions.sjon
 ```
@@ -92,7 +84,7 @@ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
     ]
 }
 ```
-## setting.json
+## settings.json
 
 ```
 {
